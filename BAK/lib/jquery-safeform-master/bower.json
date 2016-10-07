@@ -1,0 +1,35 @@
+{
+  "name": "jquery-safeform",
+  "version": "1.0.0",
+  "homepage": "https://github.com/caxap/jquery-safeform",
+  "authors": [
+    "Maxim Kamenkov <mkamenkov@gmail.com>"
+  ],
+  "description": "jQuery plugin to prevent multiple form submission.",
+  "main": "jquery.safeform.js",
+  "ignore": [
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    "bower.json",
+    "gruntfile.json",
+    "package.json",
+    "README.md",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "keywords": [
+    "plugin",
+    "prevent",
+    "multiple",
+    "form",
+    "submission",
+    "timeout",
+    "ajax"
+  ],
+  "license": "MIT"
+}

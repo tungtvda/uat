@@ -1,0 +1,8 @@
+#overriden{
+    <?php if(empty($_SESSION['agent']['FontColour'])===FALSE || empty($_SESSION['agent']['BackgroundColour'])===FALSE || empty($_SESSION['agent']['Logo'])===FALSE){ ?>
+        background: rgba(0, 0, 0, 0);
+        <?php }else{ ?>
+	background-color: #000000;
+        <?php } ?>
+}
+

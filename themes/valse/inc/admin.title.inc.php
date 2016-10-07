@@ -1,0 +1,1 @@
+<?php echo $data['page']['title']." - Administrative Panel".$data['config']['TITLE']; ?>

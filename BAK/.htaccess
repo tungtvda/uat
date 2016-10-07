@@ -1,0 +1,83 @@
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/javascript "access plus 1 week"
+ExpiresByType text/x-javascript "access plus 1 week"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+## EXPIRES CACHING ##
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+
+# Custom Error Pages
+#ErrorDocument 400 /errors/400.html
+#ErrorDocument 401 /errors/401.html
+#ErrorDocument 403 /errors/403.html
+ErrorDocument 404 /page-not-found
+#ErrorDocument 500 /page-not-found
+
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^uat\.yessys\.allsys33\.com$
+RewriteRule (.*) http://www.uat.yessys.allsys33.com/$1 [R=Permanent,NE]
+
+RewriteRule ^page-not-found$ /main/content/pagenotfound [QSA,L]
+RewriteRule ^contact$ /main/content/contact [QSA,L]
+
+#####Generated Rules START - DO NOT REMOVE#####
+RewriteRule ^main/page/1st-time-deposit-bonus-myr10-free---new-member-only$ /main/page/view/33 [QSA,L]
+RewriteRule ^main/page/4d-user-guide$ /main/page/view/39 [QSA,L]
+RewriteRule ^main/page/casino-games-rules$ /main/page/view/23 [QSA,L]
+RewriteRule ^main/page/all-time-deposit-promotion-100-up-to-myr599$ /main/page/view/34 [QSA,L]
+RewriteRule ^main/page/deposit-malaysia-casino-online-casino-gambling$ /main/page/view/15 [QSA,L]
+RewriteRule ^main/page/download-24hours-live-mobile-casino-in-malaysia$ /main/page/view/18 [QSA,L]
+RewriteRule ^main/page/faq-best-online-casino-in-malaysia$ /main/page/view/19 [QSA,L]
+RewriteRule ^main/page/horse-racing-malaysia-online-betting$ /main/page/view/32 [QSA,L]
+RewriteRule ^main/page/join-live-casino-in-malaysia$ /main/page/view/20 [QSA,L]
+RewriteRule ^main/page/transfer-win-casino-in-malaysia$ /main/page/view/16 [QSA,L]
+RewriteRule ^main/page/withdraw-best-live-casino-malaysia$ /main/page/view/17 [QSA,L]
+RewriteRule ^main/page/live-baccarat-rules-malaysia$ /main/page/view/24 [QSA,L]
+RewriteRule ^main/page/live-casino-rebate-up-to-07$ /main/page/view/35 [QSA,L]
+RewriteRule ^main/page/live-dragontiger-rules-live-gambling$ /main/page/view/25 [QSA,L]
+RewriteRule ^main/page/live-fantan-rules-casino-live$ /main/page/view/28 [QSA,L]
+RewriteRule ^main/page/live-insurancebaccarat-kasino-malaysia$ /main/page/view/29 [QSA,L]
+RewriteRule ^main/page/live-roulette-rules-casino-roulette$ /main/page/view/26 [QSA,L]
+RewriteRule ^main/page/live-sedie-rules$ /main/page/view/30 [QSA,L]
+RewriteRule ^main/page/live-sicbo-rules-online-casino$ /main/page/view/27 [QSA,L]
+RewriteRule ^main/page/privacy-policy$ /main/page/view/13 [QSA,L]
+RewriteRule ^main/page/promotions$ /main/page/view/14 [QSA,L]
+RewriteRule ^main/page/result$ /main/page/view/37 [QSA,L]
+RewriteRule ^main/page/soccer-malaysia-online-sport-betting$ /main/page/view/31 [QSA,L]
+RewriteRule ^main/page/soccer-cash-rebate-up-to-025$ /main/page/view/36 [QSA,L]
+RewriteRule ^main/page/terms-conditions-malaysia-casino-online-casino-gambling$ /main/page/view/21 [QSA,L]
+RewriteRule ^main/page/terms-and-conditions$ /main/page/view/40 [QSA,L]
+RewriteRule ^main/page/terms-of-use$ /main/page/view/12 [QSA,L]
+RewriteRule ^main/page/test$ /main/page/view/22 [QSA,L]
+RewriteRule ^main/page/user-guide-examples-stated-below-are-just-for-references-only$ /main/page/view/38 [QSA,L]
+RewriteRule ^main/news/20-brazil-to-write-off-almost-900m-of-african-debt$ /main/news/view/20 [QSA,L]
+RewriteRule ^main/news/23-chinese-premier-criticizes-eu-move-on-trade-measures$ /main/news/view/23 [QSA,L]
+RewriteRule ^main/news/21-macdonald-and-marques-share-the-lead$ /main/news/view/21 [QSA,L]
+RewriteRule ^main/news/18-mah-sings-ceo-leong-hoy-kum-is-on-a-roll$ /main/news/view/18 [QSA,L]
+#####Generated Rules END - DO NOT REMOVE#####
+
+RewriteRule ^([a-zA-Z]*)/?([a-zA-Z]*)?/?([a-zA-Z]*)?/?([a-zA-Z0-9,\-]*)?/?$ index.php?section=$1&controller=$2&action=$3&id=$4 [QSA,NC,L]
+AddHandler application/x-httpd-php53 .php .php5 .php4 .php3
