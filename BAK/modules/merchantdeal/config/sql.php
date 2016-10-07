@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `merchant_deal` (  `ID` int(11) NOT NULL AUTO_INCREMENT,  `MerchantID` int(11) NOT NULL,  `ListingID` int(11) NOT NULL,  `ImageURL` varchar(500) COLLATE utf8_unicode_ci NOT NULL,  `DateExpiry` datetime NOT NULL,  PRIMARY KEY (`ID`)) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;

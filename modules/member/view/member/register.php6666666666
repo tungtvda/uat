@@ -1,0 +1,8 @@
+<?php if ($_SESSION['superid']=='1') { ?>
+<div align="center"><img src="http://win12u.com/images/banner-announcement.jpg" width="980" height="387" /><div>
+
+  </table>
+</form>
+</div>
+<?php } ?>
+
