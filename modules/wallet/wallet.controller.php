@@ -61,8 +61,8 @@ class Wallet extends BaseController
 
 		// Load Model
 		$start = $this->Start();
-		$loadModel = $this->prefix.__FUNCTION__;
-                $param = $start->$loadModel($this->id);   
+		 $loadModel = $this->prefix.__FUNCTION__;
+                $param = $start->$loadModel($this->id);
                 
                 if ($this->section=='main')
                 {

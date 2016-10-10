@@ -3115,15 +3115,10 @@ class CRUD
 
 
 	public function validateFormSubmit($value, $key = 'submit', $exit = NULL, $redirect_url = NULL)
-
 	{
-
 		// Checks if form is submitted
-
         if ($_POST[$key]!=$value)
-
         {
-
             if ($redirect==NULL)
 
             {
