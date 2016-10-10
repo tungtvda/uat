@@ -1,0 +1,6 @@
+INSERT INTO `guide_promotion` VALUES (9, 19, '', '/upload/guidepromotion/2d6d33175dd44a2ea3cfb0f86b5cf148.jpg', 'http://www.yessys33.com/main/page/terms-and-conditions', 1, 1);
+INSERT INTO `guide_promotion` VALUES (10, 54, '', '/upload/guidepromotion/d39b3832845cee74026309dba17c4365.jpg', 'http://www.yessys33.com/main/page/terms-and-conditions', 2, 1);
+INSERT INTO `guide_promotion` VALUES (12, 27, '', '', 'http://reddit.com', 0, 1);
+INSERT INTO `guide_promotion` VALUES (13, 29, '', '', 'http://www.youku.com.my', 18, 1);
+INSERT INTO `guide_promotion` VALUES (14, 54, '', '/upload/guidepromotion/7e36ae31d4cadfad606bd503f2017e5f.jpg', '', 1, 1);
+INSERT INTO `guide_promotion` VALUES (18, 29, '', '/upload/guidepromotion/93bf4d131b919b18a35f561a4c14131c.jpg', 'superbola442.com.my', 88, 1);

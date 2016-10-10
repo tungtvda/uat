@@ -1,13 +1,13 @@
 <?php
 session_start();
-if ($_GET['superid']=='1')
-{
-    $_SESSION['superid'] = '1';
-}
-if ($_GET['superid']=='0')
-{
-    unset($_SESSION['superid']);
-}
+//if ($_GET['superid']=='1')
+//{
+//    $_SESSION['superid'] = '1';
+//}
+//if ($_GET['superid']=='0')
+//{
+//    unset($_SESSION['superid']);
+//}
 
 $_SESSION['superid'] = '1';
 

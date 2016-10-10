@@ -1,0 +1,4 @@
+INSERT INTO `message_status` VALUES (1, 'Open', '#ffffff', '#ff9900');
+INSERT INTO `message_status` VALUES (2, 'Resolved', '#fff', '#17A647');
+INSERT INTO `message_status` VALUES (3, 'Urgent', '#fff', '#c00');
+INSERT INTO `message_status` VALUES (4, 'Archived', '#fff', '#09c');

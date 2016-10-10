@@ -1,0 +1,1 @@
+INSERT INTO `theme` VALUES (1, 'custom', 1);

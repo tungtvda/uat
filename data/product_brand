@@ -1,0 +1,2 @@
+INSERT INTO `product_brand` VALUES (1, 'mushu mushu', 'ecofriend', '/upload/productbrand/24a7b51fbd16618b6b05153c504f749e.gif', '<p>\r\n	spicy</p>\r\n', 1);
+INSERT INTO `product_brand` VALUES (18621, 'rusty', 'rusty', '', 'grggf', 1);

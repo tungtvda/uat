@@ -1,0 +1,5 @@
+INSERT INTO `transaction_status` VALUES (1, 'Processing');
+INSERT INTO `transaction_status` VALUES (2, 'Completed');
+INSERT INTO `transaction_status` VALUES (3, 'Rejected');
+INSERT INTO `transaction_status` VALUES (4, 'Please call 016-3559222');
+INSERT INTO `transaction_status` VALUES (5, 'Please Hold');

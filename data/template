@@ -1,0 +1,4 @@
+INSERT INTO `template` VALUES (1, 1, 'Admin - Common Template', 'admin.common.tpl.php', 1);
+INSERT INTO `template` VALUES (2, 1, 'Admin - Login Page Template', 'admin.login.tpl.php', 1);
+INSERT INTO `template` VALUES (3, 1, 'Public - Common Template', 'common.tpl.php', 1);
+INSERT INTO `template` VALUES (4, 1, 'Public - 1-Column Common Template', 'common-1-column.tpl.php', 1);
