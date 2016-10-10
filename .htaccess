@@ -37,8 +37,8 @@ ErrorDocument 404 /page-not-found
 Options +FollowSymLinks
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^uat\.yessys\.allsys33\.com$
-RewriteRule (.*) http://localhost/uat/$1 [R=Permanent,NE]
+#RewriteCond %{HTTP_HOST} ^uat\.yessys\.allsys33\.com$
+#RewriteRule (.*) http://localhost/uat/$1 [R=Permanent,NE]
 
 RewriteRule ^page-not-found$ /main/content/pagenotfound [QSA,L]
 RewriteRule ^contact$ /main/content/contact [QSA,L]

@@ -42,7 +42,7 @@ class Wallet extends BaseController
 			// Check Access Permission
 			//Permission::Access($this->controller_name,1);
 		}
-		
+
 		if ($this->section=='member')
 		{
 			// Control Access
@@ -52,7 +52,7 @@ class Wallet extends BaseController
 			//Permission::Access($this->controller_name,1);
 		}
                 
-                if ($this->section=='api')
+         if ($this->section=='api')
 		{
 			
 		}

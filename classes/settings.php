@@ -10,6 +10,12 @@ if (APP_ENVIRONMENT=="SIT")
 else if (APP_ENVIRONMENT=="UAT")
 {
     // Database
+//    define("DB_HOSTNAME", "185.62.236.68");
+//    define("DB_NAME", "allsys33_uat_yessys");
+//    define("DB_USER", "allsys33_uat_yes");
+//    define("DB_PASSWORD", "ipm;[GC)e#h)");
+
+    // Database localhost
     define("DB_HOSTNAME", "localhost");
     define("DB_NAME", "allsys33_uat_yessys");
     define("DB_USER", "root");
