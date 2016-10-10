@@ -1,6 +1,0 @@
-INSERT INTO `bankin_slip` VALUES (1, 'None');
-INSERT INTO `bankin_slip` VALUES (3, 'Email');
-INSERT INTO `bankin_slip` VALUES (4, 'WhatsApp');
-INSERT INTO `bankin_slip` VALUES (5, 'WeChat');
-INSERT INTO `bankin_slip` VALUES (6, 'Facebook');
-INSERT INTO `bankin_slip` VALUES (7, 'Live Chat');

@@ -1,2 +1,0 @@
-INSERT INTO `menu_item` VALUES (1, 123, 234, 'bun', 'valse.com.my', 1, 1);
-INSERT INTO `menu_item` VALUES (5, 1, 6, 'Hello World', '#', 0, 1);

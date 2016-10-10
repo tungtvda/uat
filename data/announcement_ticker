@@ -1,6 +1,0 @@
-INSERT INTO `announcement_ticker` VALUES (8, 53, 'PositionPositionPositionPositionPositionPositionPositionPositionPositionPositionPositionPositionPositionPositionPosition', 6, 1);
-INSERT INTO `announcement_ticker` VALUES (9, 26, 'this is sblive. this is sblive. this is sblive. this is sblive. this is sblive.', 11, 0);
-INSERT INTO `announcement_ticker` VALUES (24, 54, 'win12u is testing right now.win12u is testing right now. winlive2u is testing right now. winlive2u is testing right now.', 0, 1);
-INSERT INTO `announcement_ticker` VALUES (25, 54, 'this is chan dec weng.this is chan dec weng.this is chan dec weng.this is chan dec weng.', 0, 1);
-INSERT INTO `announcement_ticker` VALUES (26, 19, 'this is not true.this is not true.this is not true.this is not true.this is not true.this is not true.this is not true.this is not true.this is not true.this is not true.this is not true.this is not true.', 0, 1);
-INSERT INTO `announcement_ticker` VALUES (27, 19, 'this is for testing purpose.this is for testing purpose.this is for testing purpose.this is for testing purpose.', 0, 1);

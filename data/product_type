@@ -1,5 +1,0 @@
-INSERT INTO `product_type` VALUES (1, 'Live Casino');
-INSERT INTO `product_type` VALUES (5, 'Main Wallet');
-INSERT INTO `product_type` VALUES (7, 'Games');
-INSERT INTO `product_type` VALUES (8, '4D');
-INSERT INTO `product_type` VALUES (9, 'Sports');

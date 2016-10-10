@@ -1,2 +1,0 @@
-INSERT INTO `app` VALUES (1, 'Public Android App', 'faff44a7cd5874dfc7482a45e41df76f1cbc20196e95d16aa3873d1c2431bb44', '$2a$09$Cu2LUhuk7pRUNxCj5xXl7.mZru5GkTU/U.BxTysov1bH1vFsQ3V0u', '', 1);
-INSERT INTO `app` VALUES (2, 'Public iOS App', 'b0548590a53097bf65cf4e78b6d9c1721d05ffa60d0c0904e399fecbedcb4119', '$2a$09$/H1yP1JQHrTlH4NGinUVI.SXEIM/SbW/5ViKhZG0KfNxtbKK1w/zO', '', 1);

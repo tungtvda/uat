@@ -1,9 +1,0 @@
-INSERT INTO `banner` VALUES (8, 'Horse Racing Casino', '/upload/banner/60714ef06fd32675064b7028d98bef8e.jpg', '', 'Horse Racing Casino', '0', 7, 1);
-INSERT INTO `banner` VALUES (9, 'Casino Gambling', '/upload/banner/c7de9534e54d4ea6bdb4dccda7f83c44.jpg', 'http://casino9club.com/member/member/register', 'Casino Gambling', '0', 8, 0);
-INSERT INTO `banner` VALUES (10, '100% Deposit Bonus', '/upload/banner/16199243fbc88fc89270e90d30fbbe31.jpg', 'http://casino9club.com/main/page/all-time-deposit-promotion-100-up-to-myr599', '100% Deposit Bonus', '0', 0, 1);
-INSERT INTO `banner` VALUES (12, '1st Time Deposit Bonus MYR10 Free', '/upload/banner/76c41b91d920c8d51618c712c28856d7.jpg', 'http://casino9club.com/main/page/1st-time-deposit-bonus-myr10-free---new-member-only', 'Free RM10', '0', 1, 1);
-INSERT INTO `banner` VALUES (13, 'Soccer Rebate Up To 0.25%', '/upload/banner/98dce9e2a9aae4a6abe9fd89db63f351.jpg', '', 'Soccer Rebate Up To 0.25%', '0', 6, 1);
-INSERT INTO `banner` VALUES (14, 'Live Casino Rebate Up To 0.7%', '/upload/banner/099930c2513f5cbd2f1acb942aa711ed.jpg', '', 'Live Casino Rebate Up To 0.7%', '0', 5, 1);
-INSERT INTO `banner` VALUES (15, 'Poker', '/upload/banner/a17241c5c987caaf0e207cf8ac222213.jpg', 'http://casino9club.com/main/product/index/6', 'Poker Game', '0', 2, 1);
-INSERT INTO `banner` VALUES (16, '4D', '/upload/banner/a1c10e3643e71b25d8c699143124cd70.jpg', 'http://casino9club.com/main/product/index/8', '4D', '0', 3, 1);
-INSERT INTO `banner` VALUES (17, 'World of Happy Fish', '/upload/banner/a1975515f6b61c3bfe1f14683760d9c9.jpg', 'http://casino9club.com/main/product/index/7', 'World of Happy Fish', '0', 4, 1);

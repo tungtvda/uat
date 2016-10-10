@@ -1,9 +1,0 @@
-INSERT INTO `member_address` VALUES (1, 14, 'Registered Office', '21-2, Jalan Damai Perdana 1/8B', 'Taman Damai Perdana', 'Kuala Lumpur', '1', '56000', '151', '0387341896', '0387341896', 'kenan.ng@valse.com.my', 1);
-INSERT INTO `member_address` VALUES (2, 14, 'Chimichanga Trailer', 'Chimichanga Apartment, Wade Wilson Street', '', 'Chicago', '17', '12342', '223', '0123456789', '0987654322', 'deadpool@chimichanga.com.us', 0);
-INSERT INTO `member_address` VALUES (3, 14, 'My First Address', 'P2B-5-7, Sri Camellia Apartments', 'Jalan Sepakat Indah 3, Taman Sepakat Indah', 'Shah Alam', '12', '56000', '151', '0387341896', '0387341896', 'kenan.ng@valse.com.my', 1);
-INSERT INTO `member_address` VALUES (4, 15, 'My First Address', 'Jalan Lavender 7', 'Taman Kemacahaya', 'Hulu Langat', '2', '43100', '151', '60320540000', '60320540000', 'harry.porter@gmail.com', 1);
-INSERT INTO `member_address` VALUES (5, 16, 'My First Address', 'Jalan Peel 10', '', 'Jalan Cheras', '1', '43110', '151', '62039230233', '63924292439', 'harry@hotmail.com', 1);
-INSERT INTO `member_address` VALUES (6, 5, 'My First Address', 'Jalan Lavender 7', '', 'Hulu Langat', '1', '43100', '151', '8247384834', '38943434838', 'rice@hotmail.com', 1);
-INSERT INTO `member_address` VALUES (7, 3, 'My First Address', '', '', '', '', '', '', '9284384890', '9482348392', 'ricky@ricky.com', 1);
-INSERT INTO `member_address` VALUES (8, 4, 'My First Address', '', '', '', '', '', '', '', '', 'chrishclim@gmail.com', 1);
-INSERT INTO `member_address` VALUES (9, 5, 'My First Address', '', '', '', '', '', '', '', '', 'chrishclim@gmail.com', 1);

@@ -1,2 +1,0 @@
-INSERT INTO `analyst` VALUES (3, 19, 'samurai', '', 4, 1);
-INSERT INTO `analyst` VALUES (4, 129, 'samurin', '$2a$09$8HBOycuCHu47hV8ESy3D7uwUbJ9ttQOr24huSutRnSQWfal3b6ry.', 4, 1);
