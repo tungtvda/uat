@@ -1,0 +1,11 @@
+extension=php_soap.dll
+extension=php_sockets.dll
+extension=php_sqlite3.dll
+;extension=php_sybase_ct.dll
+;extension=php_tidy.dll
+extension=php_xmlrpc.dll
+extension=php_xsl.dll
+zend_extension=ioncube_loader_win_5.6.dll
+;;;;;;;;;;;;;;;;;;;
+; Module Settings ;
+;;;;;;;;;;;;;;;;;;;
